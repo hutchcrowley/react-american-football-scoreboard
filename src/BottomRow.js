@@ -1,5 +1,6 @@
-import React from "react";
-import "./App.css";
+import React from 'react'
+import { useState } from 'react'
+import './App.css'
 
 const BottomRow = () => {
   return (
@@ -21,7 +22,7 @@ const BottomRow = () => {
         <div className="quarter__value">4</div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default BottomRow;
+export default BottomRow
